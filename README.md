@@ -5,7 +5,7 @@ Object detection API server using crow webserver.
 ## Usage
 
 ```
-$ curl -X POST http://localhost:8888/ -F "file=@grace_hopper.png;type=image/png"
+$ curl -X POST http://localhost:8888/upload -F "file=@grace_hopper.png;type=image/png"
 [{"label":"bow tie","index":458,"probability":0.996078}]
 ```
 
