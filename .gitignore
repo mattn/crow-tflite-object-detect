@@ -1,0 +1,5 @@
+*.o
+*.bmp
+*.png
+*.exe
+compile_flags.txt
