@@ -8,7 +8,7 @@ TENSORFLOW_ROOT = $(shell go env GOPATH)/src/github.com/tensorflow/tensorflow
 CXXFLAGS = -std=c++17 $(shell pkg-config --cflags opencv4)
 LDFLAGS = -std=c++17
 LIBS = -lboost_system -lpthread -lws2_32 -lmswsock $(shell pkg-config --libs opencv4)
-TARGET = tmp
+TARGET = crow-tflite-object-detect
 ifeq ($(OS),Windows_NT)
 TARGET := $(TARGET).exe
 TARGET_ARCH = windows_x86_64
